@@ -1,6 +1,3 @@
-Here is a `README.md` file for the provided Selenium script. This file includes instructions for setup, usage, and troubleshooting.
-
-```markdown
 # Instagram Reels Auto Sharer
 
 This Python script automates the process of sharing Instagram Reels with a specified user using Selenium WebDriver.
@@ -16,6 +13,7 @@ This Python script automates the process of sharing Instagram Reels with a speci
 ## Installation
 
 1. **Clone the Repository:**
+
    ```sh
    git clone https://github.com/your-repo/instagram-reels-auto-sharer.git
    cd instagram-reels-auto-sharer
@@ -23,6 +21,7 @@ This Python script automates the process of sharing Instagram Reels with a speci
 
 2. **Install Python Packages:**
    Ensure you have Python 3 installed. Then install the required packages using pip.
+
    ```sh
    pip install selenium
    ```
@@ -37,6 +36,7 @@ This Python script automates the process of sharing Instagram Reels with a speci
 
 1. **Environment Variables:**
    Create a `.env` file in the root directory and add your Instagram credentials and other configurations:
+
    ```env
    INSTAGRAM_USERNAME=your_username
    INSTAGRAM_PASSWORD=your_password
@@ -46,6 +46,7 @@ This Python script automates the process of sharing Instagram Reels with a speci
 
 2. **Update the Script:**
    Update the script to read from the `.env` file:
+
    ```python
    from dotenv import load_dotenv
    import os
@@ -62,6 +63,7 @@ This Python script automates the process of sharing Instagram Reels with a speci
 
 1. **Run the Script:**
    Execute the script using Python.
+
    ```sh
    python script_name.py
    ```
@@ -75,6 +77,7 @@ This Python script automates the process of sharing Instagram Reels with a speci
 ## Troubleshooting
 
 - **Common Issues:**
+
   - **Element Not Found:** Ensure that the XPaths and element selectors match the current Instagram layout.
   - **Login Issues:** Verify that the credentials in the `.env` file are correct.
   - **ChromeDriver Version:** Ensure that the ChromeDriver version matches your installed version of Chrome.
@@ -85,6 +88,7 @@ This Python script automates the process of sharing Instagram Reels with a speci
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ```
 
 ### Notes:
@@ -92,3 +96,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Ensure the `.env` file setup section is correctly implemented in your script for reading environment variables.
 
 This `README.md` provides a comprehensive guide for setting up, running, and troubleshooting your Selenium script. Adjust paths and instructions as needed to fit your project structure.
+```
